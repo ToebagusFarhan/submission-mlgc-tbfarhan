@@ -1,0 +1,24 @@
+{
+  "name": "submission-asclepius-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon ./src/server/server.js",
+    "start": "node ./src/server/server.js",
+    "upload": "node firestore.js",
+    "loadModel": "node testmodel.js"
+  },
+  "keywords": ["Machine learning, Tensorflow, Node.js, Hapi.js, Firestore, Backend"],
+  "author": "Tb. Muhammad Farhan Adnan",
+  "license": "ISC",
+  "description": "This is BE for MLGC submission",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.10.0",
+    "@hapi/hapi": "^21.3.12",
+    "@tensorflow/tfjs-node": "^4.14.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
